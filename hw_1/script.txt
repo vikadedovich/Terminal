@@ -1,0 +1,9 @@
+#!/bin/bash
+cd hw_1
+mkdir 1 2 3
+cd 1
+touch {f,f1,f2}.txt {3,4}.json
+mkdir 4 5 6
+ls
+mv {f.txt,f1.txt} 5
+
