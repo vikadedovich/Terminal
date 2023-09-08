@@ -48,31 +48,31 @@ Linux terminal (GitBash) commands:
 
 13) переместить любые 2 файла, которые вы создали, в любую другую папку.
 
-   - mv /new/{2,3}.txt /User/viktoryiadziadovich/group_35/Terminal/hw_1/folder_1
+   - mv new/{1.txt,2.txt} folder_2
 
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
 
-   - cp /new/{1,2}.json /User/viktoryiadziadovich/group_35/Terminal/hw_1/folder_2
+   - cp new/{2.json,3.txt} new/f_2
 
 15) Найти файл по имени
  
-   - find /hw_1 -name "*.txt"
+   - find . -type f -name "2.txt"
 
 16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
 
-   - tail -f 2.txt 
+   - tail -f -n 5 ./folder_2/2.txt
 
 17) вывести несколько первых строк из текстового файла
 
-   - head -n 3 2.txt
+   - head -n 3 ./folder_2/2.txt
 
 18) вывести несколько последних строк из текстового файла
 
-   - tail -n 2 2.txt
+   - tail -n 2 ./folder_2/2.txt
 
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
 
-   - less 2.txt
+   - less ./folder_2/2.txt
 
 20) вывести дату и время
 
@@ -94,6 +94,6 @@ cd 1
 touch {f,f1,f2}.txt {3,4}.json
 mkdir 4 5 6
 ls 
-mv {f, f1}.txt 5
+mv {f.txt,f1.txt} 5
 
-- sudo -i script.txt 
+  - bash script.txt 
