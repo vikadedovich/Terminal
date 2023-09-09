@@ -1,5 +1,4 @@
 Termial. HW_2
-
 1. Сделать папку dir_1
 
 	- mkdir dir_1
@@ -28,7 +27,7 @@ Termial. HW_2
 	- the first 1
 	- the second 2
 	- the third 3
-	Control + C
+	ˆC
 
 7. Зайти в папку inner_dir_1
 
@@ -37,37 +36,37 @@ Termial. HW_2
 8. Через cat сделать текстовый файл tf_3.txt  c любыми строками
 
 	- cat > tf_3.txt
-	Control + C
+	ˆC
 
 9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”
 
 	- cat >> tf_3.txt 
 	"the second 2"
-	Control + C
+	ˆC
 
 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”
 
 	- cat >> tf_3.txt 
 	"the sec 2"
-	Control + C
+	ˆC
 
 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”
 
 	- cat >> ../tf_2.txt 
 	"the sec 3" 
-	Control + C
+	ˆC
 
 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
 
 	- cat >> tf_3.txt 
 	"the SeCoNd 2"
-	Control + C 
+	ˆC 
 
 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
 
 	- cat >> tf_2.txt 
 	"the seConD 2"
-	Control + C 
+	ˆC 
 
 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.
 
@@ -87,6 +86,7 @@ Termial. HW_2
 	13.I was doing my homework when the electricity went off. 
 	14.My dog had chewed most of my notebook before I noticed that! 
 	15.I had been doing homework for three hours before I fell asleep right at my desk. 
+	esc:wq
 
 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
 
@@ -104,6 +104,7 @@ Termial. HW_2
 	11.How do you get to work?
 	12.I want to be in The Guinness World Records.
 	13.What the weather like today?
+	esc:wq
 
 16. Вывести список всех файлов в папке
 
